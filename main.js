@@ -17,8 +17,13 @@ function displayUser(data) {
         <h4> ${user.name.title} ${user.name.first} ${user.name.last} </h4>
         <p>title: ${user.name.title} <br>
         First name: ${user.name.first}<br>
-        Last name: ${user.name.last}</p>
-        <button onclick= "loadUser()" class="button">Loade User</button>
+        Last name: ${user.name.last}<br>
+        Gender: ${user.gender}<br>
+        Age: ${user.dob.age}</p>
+        <p>Email: ${user.email}<br>
+        User name: ${user.login.username}<br>
+        Password: ${user.login.password}</p>
+        <button onclick= "loadUser()" class="button">Load User</button>
         `
         usersDiv.appendChild(userDiv)
         
