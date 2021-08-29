@@ -15,7 +15,7 @@ function displayUser(data) {
         userDiv.innerHTML = `
         <img src=${user.picture.large}>
         <h4> ${user.name.title} ${user.name.first} ${user.name.last} </h4>
-        <p>title: ${user.name.title} <br>
+        <p>Title: ${user.name.title} <br>
         First name: ${user.name.first}<br>
         Last name: ${user.name.last}<br>
         Gender: ${user.gender}<br>
