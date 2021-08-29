@@ -1,0 +1,17 @@
+.user{
+    color: #fff;
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px auto ;
+    width: 60%;
+}
+img{
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.button{
+    padding: 10px 15px;
+    border:2px solid red;
+    border-radius: 5px;
+}
